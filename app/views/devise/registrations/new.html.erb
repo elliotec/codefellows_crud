@@ -7,6 +7,7 @@
     <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
       <%= devise_error_messages! %>
       <div class="form-group">
+<<<<<<< HEAD
 
       <div class="form-group">
         <%= f.label :firstname %>
@@ -32,6 +33,31 @@
     <% end %>
   </div>
 
+=======
+      	<% f.label :firstname %>
+      	<% f.text_field :firstname, autofocus: true, class: "form-control" %>
+      </div>
+      <div class="form-group">
+      	<% f.label :lastname %>
+      	<% f.text_field :lastname, class: "form-control" %>
+      </div>
+      <div class="form-group">
+        <%= f.label :email %>
+        <%= f.email_field :email, class: "form-control" %>
+      </div>
+
+      <div class="form-group">
+        <%= f.label :password %>
+        <%= f.password_field :password, class: "form-control" %>
+      </div>
+
+      <div class="form-group">
+        <%= f.submit "Sign up", class: "btn btn-primary" %>
+      </div>
+    <% end %>
+  </div>
+
+>>>>>>> 7f8ae03e598b85fc18c666766eeab6369b5cc179
   <div class="panel-footer">
     <%= render "devise/shared/links" %>
   </div>
