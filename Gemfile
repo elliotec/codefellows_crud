@@ -14,6 +14,7 @@ gem 'jquery-rails', '3.0.4'
 gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
 gem 'devise', '~> 3.1.1'
+gem 'protected_attributes'
 gem 'better_errors', "~> 1.0.1"
 gem 'bootstrap-sass', '~> 3.0.3.0'
 
